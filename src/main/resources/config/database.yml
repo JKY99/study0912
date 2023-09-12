@@ -1,0 +1,16 @@
+---
+  spring.config.active.on-profile: local
+
+  
+  spring:
+      datasource:
+          url: jdbc:mysql://127.0.0.1:33061/study0912
+          username: tester
+          password: StrongPassword123!
+      jpa:
+        show-sql: true
+        properties:
+          hibernate:            
+              format_sql: true
+              ddl-auto: update
+---
